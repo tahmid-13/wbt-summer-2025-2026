@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+#header{
+    background:#3b80c5;
+    color:rgba(255, 255, 255, 0.692);
+    padding:15px;
+    text-align:right;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+h1,h2,h3{
+    margin-bottom:10px;
+}
+
+.welcome,.courses,.notice-board,.campus{
+    padding:30px;
+    text-align:center;
+}
+
+.apply-btn{
+    padding:10px 20px;
+    border:none;
+    background:rgb(36, 174, 36);
+    color:white;
+    margin-top:10px;
+}
+
+.course-card{
+    display:inline-block;
+    width:250px;
+    margin:10px;
+    padding:15px;
+    background:white;
+    border:1px solid #190808;
+    position:relative;
+}
+
+.badge{
+    position:absolute;
+    top:5px;
+    right:5px;
+    background:red;
+    border: 2px solid #1d0202;
+    color:white;
+    padding:3px 7px;
+}
+
+.notice-content{
+    height:100px;
+    max-width:500px;
+    margin:auto;
+    padding:10px;
+    background:white;
+    border:1px solid #999;
+    overflow:auto;
+}
+
+.campus-container{
+    position:relative;
+    max-width:500px;
+    margin:auto;
+}
+
+.campus-image{
+    height:250px;
+    background:#ccc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.info-box{
+    position:absolute;
+    bottom:15px;
+    right:15px;
+    background:white;
+    padding:10px;
+    border:1px solid #333;
+    z-index:10;
+}
+
+.contact-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:rgb(211, 149, 34);
+    color:white;
+    padding:10px 15px;
+    text-decoration:none;
+}
+
+footer{
+    background:#163b60;
+    color:white;
+    text-align:left;
+    padding:15px;
+    margin-top:20px;
+}
