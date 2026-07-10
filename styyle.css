@@ -1,0 +1,61 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    background: rgb(110, 190, 224);
+    padding: 20px;
+    border: 1px solid #98658f;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+legend {
+    font-weight: bold;
+    color: darkblue;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 250px;
+    padding: 5px;
+}
+
+textarea {
+    width: 350px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: rgb(218, 218, 233);
+    color: rgb(100, 129, 159);
+}
+
+input[type="reset"] {
+    background-color: rgb(152, 199, 219);
+    color: rgb(109, 156, 209);
+}
